@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className='flex flex-col items-center justify-center'>
+    <div className='flex flex-col md:flex-row'>
       <div className='mx-2 bg-purple-400'>Elemento 1</div>
       <div className='mx-2 bg-blue-600'>Elemento 2</div>
       <div className='mx-2 bg-yellow-700'>Elemento 3</div>

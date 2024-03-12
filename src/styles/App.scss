@@ -1,7 +1,27 @@
+ /* @import "./colors.scss"; //Me permite importar el archivo colors.scss
+ @import './mixins.scss';
+
+.fondo1 {
+    @include theme();
+}
+.fondo2 {
+    @include theme($micolor1);
+}
+.fondo3 {
+    @include theme($micolor2, rgb(0 0 0 / 1));
+} */
+
+@use 'colors'; // Importa un modulo que en este archivo se usa como un namespace (usando el operador punto)
+@use 'mixins';
+
 $micolor: rgba(400,500,200,36);
 
-.fondoNegro {
-    background-color: black;
-    color: white;
-    color: $micolor;
+.fondo1 {
+    @include mixins.theme(colors.$micolor1, $micolor);
+    // background-color: colors.$micolor1; // Me permite saber de que archivo previene la variable micolor1
+}.fondo2 {
+    @include mixins.theme();
+}.fondo3 {
+    @include mixins.theme(colors.$micolor8, colors.$micolor7);
 }
+

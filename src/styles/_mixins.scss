@@ -1,0 +1,7 @@
+@mixin theme($theme: darkgray, $col: #fff) {
+    background: $theme;
+    box-shadow: 0 10px 10px rgba($theme, 0.99);
+    color: $col;
+    border: 0.1em solid black;
+    margin: 0.4em;
+}

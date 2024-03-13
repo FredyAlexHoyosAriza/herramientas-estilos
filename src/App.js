@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   return (
-  <body className="App">
+  <div className="App">
     <h1>Registration Form</h1>
     <p>Please fill out this form with the required information</p>
     <form method="post" action='https://register-demo.freecodecamp.org'>
@@ -39,7 +39,7 @@ function App() {
       </label>
       <input type="submit" value="Submit" />
     </form>
-  </body>
+  </div>
   );
 }
 

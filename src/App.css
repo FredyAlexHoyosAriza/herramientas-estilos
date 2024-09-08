@@ -81,3 +81,8 @@ input[type="file"] {
 }
 
 a {color: #dfdfe2;}
+
+.submit:hover {
+  /* border: 0.2em solid rgb(154, 150, 176); */
+  box-shadow: 0 0 0.3em 0 rgba(245, 244, 246, 0.5);
+}

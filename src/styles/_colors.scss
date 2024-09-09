@@ -1,5 +1,5 @@
 // Su sintaxis: rgb(Red, Green, Blue);
-/* Cada color tiene 256 (2^8) posibles tonalidades empezando desde 0 (ausencia de eso color)
+/* Cada color tiene 256 (2^8) posibles tonalidades empezando desde 0 (ausencia de ese color)
 hasta 255 (implica la tonalidad mas intensa para ese color). En total existen 256^3 (16,777,216)
 posibles tonalidades de color diferentes; rgb(0, 0, 0) es negro y rgb(255, 255, 255) es blanco.
 Para obtener tonalidades grises, los tres canales deben tener los mismos valores; grises mas
@@ -10,7 +10,7 @@ Nota: en css el verde puro corresponde al color lime: rgb(0, 255, 0). El magenta
 rgb(255, 0, 255). El cyan corresponde a rgb(0, 255, 255). Amarillo puro corresponde a
 rgb(255, 255, 0)
 
-Nota: el navegador cuanta con la herramienta color picker (cuanto gotas) que nos permite
+Nota: el navegador cuanta con la herramienta color picker (cuenta gotas) que nos permite
 seleccionar un color en la web que se tenga abierta
 
 Nota: la funcion rgba(R,G,B,A) = rgb(R G B / A) agrega con cuarta entrada, el canal Alfa,
@@ -22,7 +22,7 @@ Nota: la transparencia usualmente se usa en las estilos de sombra, y elementos d
 botones, links, etc*/
 
 // EN ESTE ARCHIVO SE PUEDEN ALMACENAR TODOS LOS COLORES QUE USA LA APLICACION; AQUI SE
-// ALMACENAN Y DESDE AQUI SEGESTIONAN
+// ALMACENAN Y DESDE AQUI SE GESTIONAN
 
 $micolor1: rgba(25,3,75, 1);
 $micolor2: rgba(17,45,200, 0.5);

@@ -34,7 +34,7 @@ function App() {
         </label>
       </fieldset>
       <label htmlFor="terms-and-conditions">
-        <input className="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+        <input className="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/" target='_blank' rel="noopener noreferrer" >terms and conditions</a>
       </label>
       <input type="submit" value="Submit" />
     </form>

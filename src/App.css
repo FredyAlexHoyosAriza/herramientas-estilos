@@ -23,6 +23,7 @@ form {
 
 fieldset {
   border: none;
+  /* box-sizing: border-box -> dimensiones hasta el borde; content-box -> dimensiones hasta el contenido */
   padding: 2rem 0;
   border-bottom: 3px solid #3b3b4f;
 }
@@ -57,7 +58,7 @@ input, textarea, select:hover {
 
 .inline {
   width: unset;
-  margin: 0 0.5em 0 0;
+  margin: 0 0.5em 0 0;/*top right bottom left */
   vertical-align: middle;
 }
 

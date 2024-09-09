@@ -21,12 +21,12 @@ function App() {
         <label htmlFor="profile-picture">Upload a profile picture: <input id="profile-picture" type="file" name="file" /></label>
         <label htmlFor="age">Input your age (years): <input id="age" type="number" name="age" min="13" max="120" /></label>
         <label htmlFor="referrer">How did you hear about us?
-          <select id="referrer" name="referrer" required>
-            <option value="">(select one)</option>
-            <option value="1">freeCodeCamp News</option>
-            <option value="2">freeCodeCamp YouTube Channel</option>
-            <option value="3">freeCodeCamp Forum</option>
-            <option value="4">Other</option>
+          <select id="referrer" name="referrer" defaultValue={0} required>
+            <option value={0} disabled >(select one)</option>
+            <option value={1}>freeCodeCamp News</option>
+            <option value={2}>freeCodeCamp YouTube Channel</option>
+            <option value={3}>freeCodeCamp Forum</option>
+            <option value={4}>Other</option>
           </select>
         </label>
         <label htmlFor="bio">Provide a bio:

@@ -14,8 +14,8 @@ function App() {
       </fieldset>
       <fieldset>
         <legend>Account type (required)</legend>
-        <label htmlFor="personal-account"><input id="personal-account" type="radio" name="account-type" className="inline" checked /> Personal</label>
-        <label htmlFor="business-account"><input id="business-account" type="radio" name="account-type" className="inline" /> Business</label>
+        <label htmlFor="personal-account"><input id="personal-account" type="radio" name="account-type" className="inline" value="personal" checked /> Personal</label>
+        <label htmlFor="business-account"><input id="business-account" type="radio" name="account-type" className="inline" value="business" /> Business</label>
       </fieldset>
       <fieldset>
         <label htmlFor="profile-picture">Upload a profile picture: <input id="profile-picture" type="file" name="file" /></label>
@@ -34,7 +34,7 @@ function App() {
         </label>
       </fieldset>
       <label htmlFor="terms-and-conditions">
-        <input className="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/" target='_blank' rel="noopener noreferrer" >terms and conditions</a>
+        <input className="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" value='on' /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/" target='_blank' rel="noopener noreferrer" >terms and conditions</a>
       </label>
       <input type="submit" value="Submit" />
     </form>
